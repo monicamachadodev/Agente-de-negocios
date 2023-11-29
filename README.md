@@ -12,34 +12,35 @@ O objetivo principal deste projeto é explorar e entender a aplicação do algor
 
 ## Pré-requisitos
 
-- Python 3.11
-- Bibliotecas: `plotly`, `pandas`, `numpy`
-
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 3.11
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+- Bibliotecas:
+  
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ```bash
 pip install plotly pandas numpy
 ```
 ## Estrutura do Projeto
-dataset.csv: Arquivo contendo os dados históricos de preços das ações.
-agente_qlearning.py: Código-fonte do agente de Q-Learning.
-LICENSE: Arquivo de licença do projeto.
-README.md: Este arquivo.
-
+- dataset.csv: Arquivo contendo os dados históricos de preços das ações.
+- agente-q-learning-para-negociacao.ipynb: Código fonte do agente de Q-Learning.
+  
 ## Executando o Código
 
 Clone ou faça o download do repositório.
 
 Certifique-se de ter os pré-requisitos instalados.
 
-Execute o script agente_qlearning.py:
+Execute o script agente-q-learning-para-negociacao.ipynb:
 ```bash
-python agente_qlearning.py
+agente-q-learning-para-negociacao jupiter notebook
 ```
 ## Configurações e Hiperparâmetros
-num_episodios: Número de episódios para treinamento.
-alfa: Taxa de aprendizado do Q-Learning.
-gama: Fator de desconto para recompensas futuras.
-epsilon: Taxa de exploração para a política epsilon-greedy.
-Ajuste esses hiperparâmetros conforme necessário para otimizar o desempenho do agente.
+- num_episodios: Número de episódios para treinamento.
+- alfa: Taxa de aprendizado do Q-Learning.
+- gama: Fator de desconto para recompensas futuras.
+- epsilon: Taxa de exploração para a política epsilon-greedy.
 
 ## Resultados
 
