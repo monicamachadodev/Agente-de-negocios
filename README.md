@@ -49,6 +49,8 @@ Após intensivo treinamento, o robô de negociação apresentou resultados promi
 Os resultados obtidos reforçam a eficácia do robô de negociação na bolsa de valores, proporcionando uma ferramenta valiosa para tomadas de decisões financeiras automatizadas.
 
 ## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests com melhorias.
+Contribuições são bem-vindas! 🫶 
+
+Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests com melhorias.
 
 [![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.org/project/pip/)
