@@ -1,7 +1,5 @@
 # Agente de Q-Learning para Negociação de Ações
 
-Este projeto consiste na implementação de um agente de Q-Learning para a tomada de decisões em um ambiente simulado de negociação de ações. O agente aprende a realizar ações (comprar, vender ou manter) com base nos preços de fechamento históricos das ações da Apple (AAPL).
-
 ## Problema de Negócio
 
 Construir um robô (modelo em Linguagem Python) baseado em Inteligência Artificial que aprenda a operar na bolsa de valores a partir de experimentos de compra e venda de ações. Dado um saldo inicial o modelo deve apresentar o resultado (lucro) a ser obtido depois de ações de compra e venda.
