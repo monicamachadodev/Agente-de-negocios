@@ -6,7 +6,7 @@ Construir um robô (modelo em Linguagem Python) baseado em Inteligência Artific
 
 ## Objetivo
 
-O objetivo principal deste projeto é explorar e entender a aplicação do algoritmo de Q-Learning na área de finanças, especificamente na negociação de ações. O agente é treinado para tomar decisões de compra e venda com base nas mudanças nos preços das ações ao longo do tempo.
+> Explorar e entender a aplicação do algoritmo de Q-Learning na área de finanças, especificamente na negociação de ações. O agente é treinado para tomar decisões de compra e venda com base nas mudanças nos preços das ações ao longo do tempo.
 
 ## Pré-requisitos
 
