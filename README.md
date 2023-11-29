@@ -1,4 +1,4 @@
-# Agente de Q-Learning para Negociação de Ações
+<img src="https://github.com/monicamachadodev/Agente-de-negocios/blob/main/robo-trading.png">
 
 ## Problema de Negócio
 
