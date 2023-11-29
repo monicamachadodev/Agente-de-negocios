@@ -53,5 +53,4 @@ Os resultados obtidos reforçam a eficácia do robô de negociação na bolsa de
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests com melhorias.
 
-## Licença
-Este projeto é distribuído sob a Licença MIT.
+[![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.org/project/pip/)
