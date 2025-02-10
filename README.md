@@ -1,39 +1,25 @@
 <img src="https://github.com/monicamachadodev/Agente-de-negocios/blob/main/robo-trading.png">
 
-## Problema de Negócio
+# Agente de Negociação com Q-Learning
 
-Construir um robô (modelo em Linguagem Python) baseado em Inteligência Artificial que aprenda a operar na bolsa de valores a partir de experimentos de compra e venda de ações. Dado um saldo inicial o modelo deve apresentar o resultado (lucro) a ser obtido depois de ações de compra e venda.
+Este repositório contém um projeto de implementação de um agente de negociação utilizando o algoritmo de Q-Learning, uma técnica de aprendizado por reforço.
+> O **objetivo** é criar um agente capaz de aprender a negociar em um ambiente simulado, tomando decisões que maximizem sua recompensa ao longo do tempo.
 
-## Objetivo
+## Descrição do Projeto
 
-> Explorar e entender a aplicação do algoritmo de Q-Learning na área de finanças, especificamente na negociação de ações. O agente é treinado para tomar decisões de compra e venda com base nas mudanças nos preços das ações ao longo do tempo.
+O projeto consiste em um notebook Jupyter `agente-q-learning-para-negociacao.ipynb` que implementa um agente de negociação utilizando Q-Learning. O ambiente de negociação é simulado, e o agente aprende a tomar decisões de compra, venda ou manutenção de posições com base em recompensas e penalidades.
 
-## Pré-requisitos
+### Estrutura do Código
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-### Bibliotecas:
-  
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-```bash
-pip install plotly pandas numpy
-```
+- **Ambiente de Negociação**: Simula um mercado financeiro onde o agente pode realizar operações de compra e venda.
+- **Agente de Q-Learning**: Implementa o algoritmo de Q-Learning para aprender a melhor política de negociação.
+- **Treinamento**: O agente é treinado em múltiplos episódios, onde ele interage com o ambiente e atualiza sua tabela Q.
+- **Avaliação**: Após o treinamento, o desempenho do agente é avaliado em um conjunto de testes.
+
 ## Estrutura do Projeto
 - dataset.csv: Arquivo contendo os dados históricos de preços das ações.
 - agente-q-learning-para-negociacao.ipynb: Código fonte do agente de Q-Learning.
   
-## Executando o Código
-
-Clone ou faça o download do repositório.
-
-Certifique-se de ter os pré-requisitos instalados.
-
-Execute o script agente-q-learning-para-negociacao.ipynb:
-```bash
-agente-q-learning-para-negociacao jupiter notebook
-```
 ## Configurações e Hiperparâmetros
 - num_episodios: Número de episódios para treinamento.
 - alfa: Taxa de aprendizado do Q-Learning.
@@ -48,9 +34,44 @@ Após intensivo treinamento, o robô de negociação apresentou resultados promi
 
 Os resultados obtidos reforçam a eficácia do robô de negociação na bolsa de valores, proporcionando uma ferramenta valiosa para tomadas de decisões financeiras automatizadas.
 
+## Requisitos
+
+Para executar o notebook, você precisará das seguintes bibliotecas Python:
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `gym` (para criar o ambiente de negociação)
+
+Você pode instalar as dependências usando o seguinte comando:
+
+```bash
+pip install numpy pandas matplotlib gym
+```
+
+## Como Executar
+
+1. Clone o repositório:
+
+```bash
+Copy
+git clone https://github.com/monicamachadodev/Agente-de-negocios.git
+```
+2. Navegue até o diretório do projeto:
+
+```bash
+Copy
+cd Agente-de-negocios
+```
+3. Abra o notebook Jupyter:
+
+```bash
+Copy
+jupyter notebook agente-q-learning-para-negociacao.ipynb
+```
+4. Execute as células do notebook para treinar e avaliar o agente.
+
 ## Contribuições
-Contribuições são bem-vindas! 🫶 
 
-Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests com melhorias.
+Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-[![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.org/project/pip/)
